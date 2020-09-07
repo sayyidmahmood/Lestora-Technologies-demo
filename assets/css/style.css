@@ -1815,6 +1815,9 @@ button {
   margin-bottom: 0px;
   padding: 20px 0px;
 }
+.pc{
+  padding-left: 6em;
+}
 
 .process-section .single-process p {
   margin-bottom: 0px;
