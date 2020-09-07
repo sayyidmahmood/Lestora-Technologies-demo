@@ -3969,6 +3969,15 @@ button {
  
 }
 
+.divider-short-client{
+  display: block;
+  height: 3px;
+  background: #f3b019;
+  width:22em;
+  text-align:left;
+ 
+}
+
 
 
 
