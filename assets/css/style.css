@@ -1493,7 +1493,7 @@ button {
 .services-section .single-service-two i {
   font-size: 35px;
   margin-right: 10px;
-  color: #621cf6;
+  color: #e7c818;
   position: relative;
 }
 
@@ -1633,7 +1633,7 @@ button {
 /*  10. Stat Section Style
 /*----------------------------------------*/
 .stat-section {
-  background: url(../img/testimonial-bg.jpg);
+  background: url(../img/exp.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1660,7 +1660,7 @@ button {
 }
 
 .stat-section .single-stat .odometer-inside {
-  font-size: 52px !important;
+  font-size: 32px !important;
 }
 
 .stat-section .single-stat .sub-text {
@@ -1814,9 +1814,13 @@ button {
 .process-section .single-process h4 {
   margin-bottom: 0px;
   padding: 20px 0px;
+
 }
 .pc{
   padding-left: 6em;
+}
+.ps{
+  background: url(../img/testimonial-bg.jpg);
 }
 
 .process-section .single-process p {
@@ -1834,7 +1838,7 @@ button {
 .process-section .single-process:after {
   margin-top: 20px;
   content: '';
-  background: #621cf6;
+  background: #e7c818 ;
   display: block;
   width: 0;
   height: 4px;
@@ -2059,8 +2063,8 @@ button {
 }
 
 .analize-section h1 {
-  color: #fff;
-  margin-bottom: 30px;
+  color: rgb(12, 12, 12);
+  margin-bottom: 20px;
 }
 
 .analize-section form {
@@ -2226,6 +2230,7 @@ button {
 /*----------------------------------------*/
 .brand-logo-section {
   padding-top: 73px;
+ 
 }
 
 .brand-logo-section.home-one {
@@ -2255,14 +2260,14 @@ button {
   -webkit-transform: translateY(70px);
           transform: translateY(70px);
   z-index: 2;
-  background: linear-gradient(-34deg, #5818f5, #a838ff);
+  background: linear-gradient(-34deg, #e7c818, #f3b019);
   padding: 45px 20px;
   border-radius: 3px;
 }
 
 .cta-subscribe-wrap.other-page {
-  background: -webkit-gradient(linear, left top, right top, from(#0172d0), to(#19a9fe));
-  background: linear-gradient(to right, #0172d0, #19a9fe);
+  background: -webkit-gradient(linear, left top, right top, from(#e7c818 ), to(#f3b019));
+  background: linear-gradient(to right, #e7c818 , #f3b019);
 }
 
 .cta-subscribe-wrap h4 {
@@ -2316,6 +2321,7 @@ button {
   position: relative;
 }
 
+
 .footer-section.home-one a,
 .footer-section.home-one h4,
 .footer-section.home-one p,
@@ -2364,6 +2370,7 @@ button {
 .footer-section .footer-top .wiget-title,
 .footer-section .footer-top .footer-logo {
   margin-bottom: 20px;
+  max-width: 180px; max-height: 60px;
 }
 
 .footer-section .footer-top .social-lists {
@@ -3956,7 +3963,7 @@ button {
   display: block;
   height: 3px;
   margin-top: -25px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   background: #f3b019;
   width:10em;
  margin-left: 0px;
@@ -3981,6 +3988,15 @@ button {
  
 }
 
+.divider-short-exp{
+  display: block;
+  height: 3px;
+  background: #f3b019;
+  width:20em;
+  
+  text-align:left;
+ 
+}
 
 
 
@@ -3997,12 +4013,20 @@ border: 1px solid #f4f4f4;
 
 
 }
+.projectFactsWrap .item img {
+  width: 70px;
+  margin-bottom: 10px;
+  border: 2px solid #f4f4f4;
+  border-radius: 35px;
+}
 
 .projectFactsWrap .item{
 width: 25%;
 height: 100%;
+
+
 padding: 50px 0px;
-text-align: center;border: 1px solid #f4f4f4;
+text-align: center;border: 2px solid #f4f4f4;
 }
 
 .projectFactsWrap .item:nth-child(1){
@@ -4018,15 +4042,19 @@ text-align: center;border: 1px solid #f4f4f4;
 }
 
 .projectFactsWrap .item:nth-child(3){
-background: rgb(21, 38, 56);
+  background: -webkit-gradient(linear, left top, right top, from(#e7c818 ), to(#f3b019));
+  background: linear-gradient(to right, #e7c818 , #f3b019);
+
 }
 
 .projectFactsWrap .item:nth-child(4){
-background: rgb(23, 44, 66);
+  background: -webkit-gradient(linear, left top, right top, from(#e7c818 ), to(#f3b019));
+  background: linear-gradient(to right, #e7c818 , #f3b019);
+
 }
 
 .projectFactsWrap .item p.number{
-font-size: 40px;
+font-size: 30px;
 padding: 0;
 font-weight: bold;
 }
@@ -4055,12 +4083,15 @@ margin: 0 auto;
 color: white;
 }
 
-.projectFactsWrap .item:hover span{
+/* .projectFactsWrap .item:hover span{
 background: white;
-}
+} */
 
 @media (max-width: 786px){
 .projectFactsWrap .item {
    flex: 0 0 50%;
 }
+}
+h1.h-ultra,h2.h-ultra,h3.h-ultra ,h4.h-ultra ,h5.h-ultra ,h6.h-ultra  {
+	font-weight: 900;
 }

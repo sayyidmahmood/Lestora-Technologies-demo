@@ -81,8 +81,8 @@
     $('.odometer').each(function () {
       if ($(this).isInViewport()) {
         setTimeout(function () {
-          $('.odometer_number_one').html('250');
-          $('.odometer_number_two').html('120');
+          $('.odometer_number_one').html('200');
+          $('.odometer_number_two').html('5/5');
           $('.odometer_number_three').html('210');
           $('.odometer_number_four').html('390');
         }, 5);
