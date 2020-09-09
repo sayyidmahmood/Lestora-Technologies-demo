@@ -1322,7 +1322,7 @@ button {
 
 .home-two .dopenav ul li:hover > a,
 .home-two .dopenav ul li:hover > a::after {
-  color: #621cf6 !important;
+  color: #e7c818 !important;
 }
 
 .home-two .menu-btn {
@@ -1447,6 +1447,7 @@ button {
   transition: all 0.2s ease-in-out;
   position: relative;
   overflow: hidden;
+  height: 13em;
 }
 
 .services-section .single-service-two:hover {
@@ -2461,7 +2462,7 @@ button {
 /*  23. About Us Page Styles
 /*----------------------------------------*/
 .page-header {
-  background: url(../img/page-header.jpg);
+  background: url(../img/contact.jpg);
   background-size: cover;
   background-position: right;
 }
@@ -2997,8 +2998,9 @@ button {
 }
 
 .address-section .single-address.active {
-  background-image: -webkit-gradient(linear, left top, right top, from(#0172d0), to(#19a9fe));
-  background-image: linear-gradient(to right, #0172d0, #19a9fe);
+  background: -webkit-gradient(linear, left top, right top, from(#e7c818 ), to(#f3b019));
+  background: linear-gradient(to right, #e7c818 , #f3b019);
+
   color: #fff;
 }
 
@@ -3010,8 +3012,9 @@ button {
 
 .address-section .single-address:hover {
   color: #fff;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0172d0), to(#19a9fe));
-  background-image: linear-gradient(to right, #0172d0, #19a9fe);
+  background: -webkit-gradient(linear, left top, right top, from(#e7c818 ), to(#f3b019));
+  background: linear-gradient(to right, #e7c818 , #f3b019);
+
 }
 
 .address-section .single-address:hover h4,
@@ -3080,8 +3083,9 @@ button {
 }
 
 .contact-form-section .form-wrap .btn-style {
-  background-image: -webkit-gradient(linear, left top, right top, from(#0172d0), color-stop(#19a9fe), color-stop(#19a9fe), to(#0172d0));
-  background-image: linear-gradient(to right, #0172d0, #19a9fe, #19a9fe, #0172d0);
+  background: -webkit-gradient(linear, left top, right top, from(#e7c818 ), to(#f3b019));
+  background: linear-gradient(to right, #e7c818 , #f3b019);
+
   border: none;
 }
 
