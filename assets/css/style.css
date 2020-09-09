@@ -4264,3 +4264,42 @@ h1.h-ultra,h2.h-ultra,h3.h-ultra ,h4.h-ultra ,h5.h-ultra ,h6.h-ultra  {
     margin-left: 0;
   }
 }
+
+/*----------------------------------------*/
+/* 7.Counter Area
+/*----------------------------------------*/
+.counter-area{
+  background:#555;  padding-top: 40px;padding-bottom: 50px;
+}
+.cou{
+  padding-bottom: 25px; 
+}
+.counter-inner {
+   background: #f6f6f6;
+   padding: 100px 30px 100px 70px;
+}
+.fun_text {
+   text-align: center;
+   padding: 30px 10px;
+   border-radius: 10px;
+ background: #fff;
+ height: 250px;
+}
+.fun_text:nth-child(3n){
+ margin-right: 0px;
+}
+.fun_text span {
+   color: #fd5f16;
+   display: block;
+   font-size: 40px;
+   font-weight: bold;
+   padding-bottom: 10px;
+   line-height: 60px;
+}
+.fun_text > h5 {
+   color: rgb(255, 255, 255);
+   font-size: 14px;
+   font-weight: 600;
+   text-transform: uppercase;
+   margin-bottom: 0;
+}
