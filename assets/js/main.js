@@ -8,8 +8,8 @@
 
 
   $(window).on('load', function () {
-    if ($(".pre-loader-wrap").length > 0) {
-      $(".pre-loader-wrap").fadeOut("slow");
+    if ($(".loader").length > 0) {
+      $(".loader").fadeOut("slow");
     }
   });
 
