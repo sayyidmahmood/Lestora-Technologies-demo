@@ -496,7 +496,7 @@ button {
 .pre-loader {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 50%;
   
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -506,7 +506,7 @@ button {
   font-weight: bold;
   padding-left: 45%;
   position: absolute;
-  top: 48%;
+  top: 58%;
   font-size:40px;
   /* background: url(../img/web-logo-01.png); */
   
@@ -4010,6 +4010,15 @@ button {
  
 }
 
+.divider-short-client{
+  display: block;
+  height: 3px;
+  background: #f3b019;
+  width:15em;
+  
+  text-align:left;
+ 
+}
 
 
 
@@ -4146,6 +4155,30 @@ h1.h-ultra,h2.h-ultra,h3.h-ultra ,h4.h-ultra ,h5.h-ultra ,h6.h-ultra  {
    text-transform: uppercase;
    margin-bottom: 0;
 }
+
+
+
+/* brand */
+  
+.mail-tab{width:100%;max-width:220px; height: 168px;; margin:0 auto;padding:25px 0px 25px 30px;background:#ffffff;border-radius:20px;position:relative;margin-top:10px;cursor:pointer;border:1px solid #ca0d65;box-shadow:0px 0px 20px #efefef;transition:all 0.5s ease 0s;}
+.mail-tab:hover, .mail-tab.active{background:#ffffff;border:1px solid rgba(240,172,13,1);box-shadow:0px 0px 20px #F9EABD;}
+.mail-tab .check-icon{position:absolute;top:-40px;margin:0 auto 0 -20px;left:50%;opacity:0;transition:all 0.5s ease 0s;}
+.mail-tab:hover .check-icon, .mail-tab.active .check-icon{opacity:1;top:-20px;}
+.mail-tab .check-icon img{width:40px;height:40px;border-radius:20px;box-shadow:0 1px 1px #168150 ;}
+.mail-tab .ctgy-icon{margin-left:8px;position:absolute;left:0%;}
+.brandbg{
+  /* background:url(../img/slider/slider-4.png) */
+  background-color: #ffffff;
+}
+.mail-tab:hover i, .mail-tab.active i{color:#f2f2f2}
+.mail-tab .cta-btn{position:absolute;width:100%;bottom:-25px;margin-left:-25px;text-align:center;opacity:0;transition:all 0.5s ease 0s;}
+.mail-tab:hover .cta-btn, .mail-tab.active .cta-btn{opacity:1;bottom:-9px;}
+.fuller{position:absolute;top:0;bottom:0;left:0;right:0;width:100%;}
+
+
+
+
+/* Footer */
 
 
 .footer {
@@ -4311,4 +4344,41 @@ h1.h-ultra,h2.h-ultra,h3.h-ultra ,h4.h-ultra ,h5.h-ultra ,h6.h-ultra  {
     margin-left: 0;
   }
 }
+
+
+
+.vr-all {
+	padding:0px;
+	border-right:1px solid #7a00cc;
+}
+
+.vr-bt {
+	padding:0px;
+	border-bottom:1px solid #7a00cc;
+}
+
+
+.vr-xs {
+	padding:0px;
+}
+.vr-md {
+	padding:0px;
+}
+.hrspacing { padding:0px; }
+.hrcolor {
+	border-color: #1bc762;
+	border-style: solid;
+	border-bottom: 1px;
+	margin:0px;
+	padding:0px;
+}
+/* remove right vertical rule on small */
+@media(min-width:992px){
+	.vr-xs {
+		border-right:1px solid #CC0000;
+	}
+	}
+
+  
+
 
